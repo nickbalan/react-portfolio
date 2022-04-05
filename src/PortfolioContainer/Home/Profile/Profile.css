@@ -61,7 +61,7 @@
   border-radius: 50%;
   height: 380px;
   width: 380px;
-  margin: 0 0 0 100px;
+  margin: 0 0px 0 100px;
 }
 
 .profile-picture-background {
@@ -91,7 +91,7 @@
 
 @media screen and (max-width: 1110px) {
   .profile-picture {
-    margin: 0 0 0 80 px;
+    margin: 0 0px 0 80 px;
   }
 
   .profine-details-name {

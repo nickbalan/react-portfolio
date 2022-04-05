@@ -7,10 +7,6 @@ export default function Profile() {
     <div className='profile-container'>
       <div className='profile-parent'>
         <div className='profile-details'>
-          <div className='profile-picture'>
-            <div className='profile-picture-background'>
-            </div>
-          </div>
           <div className='collections'>
             <div className='collection-icon'>
               <a href='https://www.linkedin.com/in/nickbalan/'>
@@ -36,7 +32,9 @@ export default function Profile() {
                     steps={[
                       'Full Stack Developer',
                       1000,
-                      'Full Stack Developer',
+                      'Front-End Developer',
+                      1000,
+                      'Back-End Developer',
                       1000,
                       'MERN Stack Developer',
                       1000,
@@ -62,6 +60,10 @@ export default function Profile() {
                 <button className='btn highlighted-btn'>Get Resume DE</button>
               </a>
             </div>
+          </div>
+        </div>
+        <div className='profile-picture'>
+          <div className='profile-picture-background'>
           </div>
         </div>
       </div>
